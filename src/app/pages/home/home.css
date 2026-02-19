@@ -547,6 +547,6 @@ html {
   }
 
   .project-item:nth-child(even) .tech-stack {
-    justify-content: flex-start;
+    justify-content: flex-start; 
   }
 }
