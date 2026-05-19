@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Ground -->
+  <ellipse cx="100" cy="186" rx="46" ry="9" fill="#2A5A0C"/>
+  <ellipse cx="100" cy="185" rx="38" ry="6.5" fill="#78B428"/>
+  <ellipse cx="100" cy="184" rx="28" ry="4" fill="#68B868"/>
+
+  <!-- Roots -->
+  <ellipse transform="translate(89 182) rotate(-22.92)" rx="9" ry="4.5" fill="#4A2810"/>
+  <ellipse transform="translate(111 182) rotate(22.92)" rx="9" ry="4.5" fill="#4A2810"/>
+
+  <!-- Trunk main -->
+  <path d="M 92 185 C 88.16 163.04 92.96 140.08 98.4 104 L 101.6 104 C 107.04 140.08 111.84 163.04 108 185 Z" fill="#4A2810"/>
+  <!-- Trunk highlight -->
+  <path d="M 99.52 181.08 C 98.4 159.76 100 135.16 100.64 104 L 102.4 104 C 101.92 135.16 102.88 159.76 103.52 181.08 Z" fill="#6B3F20"/>
+
+  <!-- Branches — thick (trunk4) -->
+  <path d="M 97 128 Q 78.5 118 60 108" fill="none" stroke="#4A2810" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M 103 120 Q 121.5 110 140 100" fill="none" stroke="#4A2810" stroke-width="6.5" stroke-linecap="round"/>
+  <!-- Branches — medium (trunk3) -->
+  <path d="M 96 138 Q 83.6 128 71.2 130" fill="none" stroke="#6B3F20" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 104 132 Q 116.4 122 128.8 124" fill="none" stroke="#6B3F20" stroke-width="4" stroke-linecap="round"/>
+  <!-- Branches — thin (trunk2) -->
+  <path d="M 78 114 Q 69 104 60 106" fill="none" stroke="#8B5E3C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 120 108 Q 129 98 138 100" fill="none" stroke="#8B5E3C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Canopy — leaf5 shadow layer -->
+  <ellipse cx="100" cy="114" rx="40.28" ry="24.32" fill="#2A5A0C"/>
+  <ellipse cx="74.92" cy="109.32" rx="28.12" ry="23.56" fill="#2A5A0C"/>
+  <ellipse cx="125.08" cy="109.32" rx="28.12" ry="23.56" fill="#2A5A0C"/>
+
+  <!-- Canopy — leaf4 mid layer -->
+  <ellipse cx="100" cy="106" rx="38" ry="26.6" fill="#4A8C1C"/>
+  <ellipse cx="78.72" cy="100.2" rx="26.6" ry="22.8" fill="#4A8C1C"/>
+  <ellipse cx="121.28" cy="100.2" rx="26.6" ry="22.8" fill="#4A8C1C"/>
+  <ellipse cx="100" cy="87.28" rx="30.4" ry="23.56" fill="#4A8C1C"/>
+
+  <!-- Canopy — leaf3 front layer -->
+  <ellipse cx="88.6" cy="101.72" rx="26.6" ry="21.28" fill="#78B428"/>
+  <ellipse cx="111.4" cy="101.72" rx="26.6" ry="21.28" fill="#78B428"/>
+  <ellipse cx="100" cy="81.96" rx="24.32" ry="20.52" fill="#78B428"/>
+  <ellipse cx="100" cy="69.8" rx="16.72" ry="15.2" fill="#78B428"/>
+
+  <!-- Canopy — leaf2 highlights -->
+  <ellipse cx="96.2" cy="82.68" rx="13.68" ry="10.64" fill="#B5D96A"/>
+  <ellipse cx="89.36" cy="99.44" rx="10.64" ry="8.36" fill="#B5D96A"/>
+
+  <!-- Canopy — leaf1 bright spot -->
+  <ellipse cx="94.68" cy="80.44" rx="5.7" ry="4.56" fill="#E2F0C8"/>
+
+  <!-- Fruits (6) -->
+  <circle cx="75" cy="119.5" r="4.8" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="74" cy="118" r="4.8" fill="#E8453C"/>
+  <circle cx="72.6" cy="116.6" r="1.9" fill="rgba(255,255,255,0.28)"/>
+
+  <circle cx="129" cy="115.5" r="4.8" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="128" cy="114" r="4.8" fill="#E8453C"/>
+  <circle cx="126.6" cy="112.6" r="1.9" fill="rgba(255,255,255,0.28)"/>
+
+  <circle cx="85" cy="81.5" r="4.8" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="84" cy="80" r="4.8" fill="#E8453C"/>
+  <circle cx="82.6" cy="78.6" r="1.9" fill="rgba(255,255,255,0.28)"/>
+
+  <circle cx="119" cy="83.5" r="4.8" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="118" cy="82" r="4.8" fill="#E8453C"/>
+  <circle cx="116.6" cy="80.6" r="1.9" fill="rgba(255,255,255,0.28)"/>
+
+  <circle cx="97" cy="69.5" r="4.8" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="96" cy="68" r="4.8" fill="#E8453C"/>
+  <circle cx="94.6" cy="66.6" r="1.9" fill="rgba(255,255,255,0.28)"/>
+
+  <circle cx="109" cy="107.5" r="4.8" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="108" cy="106" r="4.8" fill="#E8453C"/>
+  <circle cx="106.6" cy="104.6" r="1.9" fill="rgba(255,255,255,0.28)"/>
+
+  <!-- Flowers (3) — each has 5 petals + amber center -->
+  <!-- Flower at [78, 94] -->
+  <ellipse cx="81.5" cy="94" rx="2.8" ry="2" fill="#F4A7B9"/>
+  <ellipse cx="79.08" cy="97.33" rx="2.8" ry="2" transform="rotate(72 79.08 97.33)" fill="#F4A7B9"/>
+  <ellipse cx="75.17" cy="96.06" rx="2.8" ry="2" transform="rotate(144 75.17 96.06)" fill="#F4A7B9"/>
+  <ellipse cx="75.17" cy="91.94" rx="2.8" ry="2" transform="rotate(216 75.17 91.94)" fill="#F4A7B9"/>
+  <ellipse cx="79.08" cy="90.67" rx="2.8" ry="2" transform="rotate(288 79.08 90.67)" fill="#F4A7B9"/>
+  <circle cx="78" cy="94" r="2.2" fill="#F5A623"/>
+
+  <!-- Flower at [124, 90] -->
+  <ellipse cx="127.5" cy="90" rx="2.8" ry="2" fill="#F4A7B9"/>
+  <ellipse cx="125.08" cy="93.33" rx="2.8" ry="2" transform="rotate(72 125.08 93.33)" fill="#F4A7B9"/>
+  <ellipse cx="121.17" cy="92.06" rx="2.8" ry="2" transform="rotate(144 121.17 92.06)" fill="#F4A7B9"/>
+  <ellipse cx="121.17" cy="87.94" rx="2.8" ry="2" transform="rotate(216 121.17 87.94)" fill="#F4A7B9"/>
+  <ellipse cx="125.08" cy="86.67" rx="2.8" ry="2" transform="rotate(288 125.08 86.67)" fill="#F4A7B9"/>
+  <circle cx="124" cy="90" r="2.2" fill="#F5A623"/>
+
+  <!-- Flower at [94, 72] -->
+  <ellipse cx="97.5" cy="72" rx="2.8" ry="2" fill="#F4A7B9"/>
+  <ellipse cx="95.08" cy="75.33" rx="2.8" ry="2" transform="rotate(72 95.08 75.33)" fill="#F4A7B9"/>
+  <ellipse cx="91.17" cy="74.06" rx="2.8" ry="2" transform="rotate(144 91.17 74.06)" fill="#F4A7B9"/>
+  <ellipse cx="91.17" cy="69.94" rx="2.8" ry="2" transform="rotate(216 91.17 69.94)" fill="#F4A7B9"/>
+  <ellipse cx="95.08" cy="68.67" rx="2.8" ry="2" transform="rotate(288 95.08 68.67)" fill="#F4A7B9"/>
+  <circle cx="94" cy="72" r="2.2" fill="#F5A623"/>
+
+  <!-- Top amber fruit -->
+  <circle cx="101" cy="65" r="6" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="100" cy="64" r="6" fill="#F5A623"/>
+  <circle cx="98" cy="62" r="2.2" fill="rgba(255,255,255,0.35)"/>
+</svg>
